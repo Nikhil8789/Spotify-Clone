@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" href="logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="home-search">
+                <div class="home"><i class="fa-solid fa-house"></i><h4>Home</h4></div>
+                <div class="search"><i class="fa-solid fa-magnifying-glass"></i><h4>Search</h4></div>
+            </div>
+            <div class="library">
+                <div class="your-library">
+                    <div class="lib">
+                        <img src="library_icon.png" alt="library_icon">
+                        <h4>Your Library</h4>
+                    </div>
+                    <div class="add-for">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right" id="forward-arrow1"></i>
+                    </div>
+                </div>
+                <div class="play-podcast">
+                    <div class="create-your-playlist">
+                        <h4>Create your first playlist</h4>
+                        <p>it's easy,we'll help you</p>
+                        <button>Create playlist</button>
+                    </div>
+                    <div class="find-podcast">
+                        <h4>Let's find some podcasts to follow</h4>
+                        <p>We'll keep you updated on new episodes</p>
+                        <button>Browse podcasts</button>
+    
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="main-content" >
+            <nav class="nav-bar">
+                <div class="arrows">
+                    <img src="backward_icon.png" alt="photo">
+                    <img class="forward" src="forward_icon.png" alt="photo">
+                </div>
+                <div class="explore-install">
+                    <button class="expo"> Explore Premium</button>
+                    <button class="install-btn"><i class="fa-solid fa-circle-arrow-down"></i>Install App</button>
+                    <div class="customer">
+                        <i class="fa-regular fa-bell"></i>
+                        <i class="fa-regular fa-user"></i>
+                    </div>
+                </div>
+            </nav>
+            <div class="recent-played">
+                <h1>Recently Played</h1>
+                <div class="card" id="main-card" >
+                    <div class="for-img">
+                        <img src="card1img.jpeg" alt="photo">
+                        <div class="play-btn">
+                            <img src="play_musicbar.png" alt="photo">
+                        </div>
+                    </div>
+                    <h2>Top 50-Global</h2>
+                    <p class="para">Your daily updates of the most played tracks</p>
+                </div>
+            </div>
+
+            <h1 class="titles">Trending now near you</h1>
+            <div class="recent-played" id="trending">
+                <div class="card">
+                    <div class="for-img">
+                        <img src="cardimg7attack.jpg" alt="photo">
+                        <div class="play-btn">
+                            <img src="play_musicbar.png" alt="photo">
+                        </div>
+                    </div>
+                    <h2>Saigo no Kyojin</h2>
+                    <p>Attack On Titan-Let's begin the rumbling</p>
+                </div>
+                <div class="card">
+                    <div class="for-img">
+                        <img src="card2img.jpeg" alt="photo">
+                        <div class="play-btn">
+                            <img src="play_musicbar.png" alt="photo">
+                        </div>
+                    </div>
+                    <h2>Indie India</h2>
+                    <p>Best of the Indian Indie</p>
+                </div>
+                <div class="card">
+                    <div class="for-img">
+                        <img src="jai-shree-ram.jpg" alt="photo">
+                        <div class="play-btn">
+                            <img src="play_musicbar.png" alt="photo">
+                        </div>
+                    </div>
+                    <h2>Shree Ram Mandir</h2>
+                    <p>मेरे घर राम आये हैं</p>
+                </div>
+                <div class="card">
+                    <div class="for-img">
+                        <img src="card3img.jpeg" alt="photo">
+                        <div class="play-btn">
+                            <img src="play_musicbar.png" alt="photo">
+                        </div>
+                    </div>
+                    <h2>Mere Pass Tum Ho</h2>
+                    <p>Kumar Shanu Hits</p>
+                </div>
+                <div class="card">
+                    <div class="for-img">
+                        <img src="solo-lev (1).webp" alt="photo">
+                        <div class="play-btn">
+                            <img src="play_musicbar.png" alt="photo">
+                        </div>
+                    </div>
+                    <h2>Solo Leveling hits</h2>
+                    <p>Get details on all the amazing series (subbed and dubbed!)</p>
+                </div>
+              
+            </div>
+            <h1 class="titles">Featured Chart</h1>
+            <div class="recent-played" id="trending">
+                <div class="card">
+                    <div class="for-img">
+                        <img src="card5img.jpeg" alt="photo">
+                        <div class="play-btn">
+                            <img src="play_musicbar.png" alt="photo">
+                        </div>
+                    </div>
+                    <h2>Top Songs Global</h2>
+                    <p>All global hits collections at one place</p>
+                </div>
+                <div class="card">
+                    <div class="for-img">
+                        <img src="card6img.jpeg" alt="photo">
+                        <div class="play-btn">
+                            <img src="play_musicbar.png" alt="photo">
+                        </div>
+                    </div>
+                    <h2>Indian Viral Hits</h2>
+                    <p>Best of the Indian Region</p>
+                </div>
+                <div class="card">
+                    <div class="for-img">
+                        <img src="card1img.jpeg" alt="photo">
+                        <div class="play-btn">
+                            <img src="play_musicbar.png" alt="photo">
+                        </div>
+                    </div>
+                    <h2>Top 50-Global</h2>
+                    <p class="para">Your daily updates of the most played tracks</p>
+                </div>
+                </div>
+                <h1 class="titles">Popular Artists</h1>
+                <div class="recent-played" id="trending">
+                    <div class="card" >
+                        <div class="for-img" id="artists">
+                            <img src="ari (1)-modified.png" alt="photo">
+                            <div class="play-btn">
+                                <img src="play_musicbar.png" alt="photo">
+                            </div>
+                        </div>
+                        <h2>Arijit Singh</h2>
+                        <p>Artist</p>
+                    </div>
+                    <div class="card" >
+                        <div class="for-img" id="artists">
+                            <img src="vilen (1)-modified.png" alt="photo">
+                            <div class="play-btn">
+                                <img src="play_musicbar.png" alt="photo">
+                            </div>
+                        </div>
+                        <h2>Vilen</h2>
+                        <p>Artist</p>
+                    </div>
+                    <div class="card" >
+                        <div class="for-img" id="artists">
+                            <img src="vishal (1)-modified.png" alt="photo">
+                            <div class="play-btn">
+                                <img src="play_musicbar.png" alt="photo">
+                            </div>
+                        </div>
+                        <h2>Vishal Mishra</h2>
+                        <p>Artist</p>
+                    </div>
+                    <div class="card" >
+                        <div class="for-img" id="artists">
+                            <img src="krishna (1)-modified.png" alt="photo">
+                            <div class="play-btn">
+                                <img src="play_musicbar.png" alt="photo">
+                            </div>
+                        </div>
+                        <h2>KR$NA</h2>
+                        <p>Artist</p>
+                    </div>
+                    <div class="card" >
+                        <div class="for-img" id="artists">
+                            <img src="jubin (1)-modified.png" alt="photo">
+                            <div class="play-btn">
+                                <img src="play_musicbar.png" alt="photo">
+                            </div>
+                        </div>
+                        <h2>Jubin Nautiyal </h2>
+                        <p>Artist</p>
+                    </div>
+
+                </div>
+                
+                
+                <div class="foot">
+                    <div class="details">
+                        <div class="company">
+                            <h2>Company</h2>
+                            <p>About</p>
+                            <p>Jobs</p>
+                            <p>For the Record</p>
+                        </div>
+                        <div class="community">
+                            <h2>Communities</h2>
+                            <p>For Artists</p>
+                            <p>Developers</p>
+                            <p>Advertising</p>
+                            <p>Investors</p>
+                            <p>Vendors</p>
+
+                        </div>
+                        <div class="items">
+                            <h2>Useful links</h2>
+                            <p>Support</p>
+                            <p>Free Mobile App</p>
+
+                        </div>
+                    </div>
+                    <div class="socials">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                </div>
+
+
+                <div class="rights">
+                    <div class="claim">
+                        <p>Legal</p>
+                        <p>Privacy Center</p>
+                        <p>Privacy Policy</p>
+                        <p>Cookies</p>
+                        <p>About Ads</p>
+                        <p>Accessibility</p>
+
+                    </div>
+                    <div class="year">
+                        <p>© 2024 Spotify AB</p>
+                    </div>
+                </div>
+        </div>
+        <div class="music-player" >
+            <div class="heart">
+                <img src="album_picture.jpeg" id="album" alt="photo">
+                <div class="song-details">
+                    <h2>DOA</h2>
+                    <p>Arijit Singh</p>
+                </div>
+                <img src="album_icon1.png" id="dil" alt="photo">
+
+            </div>
+            <div class="player">
+                <div class="play">
+                    <img src="player_icon1.png" alt="photo">
+                    <img src="player_icon2.png" alt="photo">
+                    <div>
+                        <img class="play-btn" src="player_icon3.png" alt="photo">
+                    </div>
+                    <img src="player_icon4.png" alt="photo">
+                    <img src="player_icon5.png" alt="photo">
+                </div>
+                <div class="duration" >
+                    <p>1:02</p>
+                    <input type="range" id="range" min="0" max="100" value="30">
+                    <p>3:46</p>
+                </div>
+
+            </div>
+            <div class="volume">
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-solid fa-microphone"></i>
+                <i class="fa-solid fa-layer-group"></i>
+                <i class="fa-solid fa-computer"></i>
+                <i class="fa-solid fa-volume-high"></i>
+                <input type="range" id="range2" min="0" max="100" value="10">
+                <i class="fa-brands fa-chromecast"></i>
+            </div>
+        </div>   
+        
+    </div>
+    
+</body>
+</html>
